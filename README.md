@@ -1,6 +1,6 @@
-Análise de Churn - Telecom X
+# Análise de Churn - Telecom X
 
-Sobre o projeto
+## Sobre o projeto
 
 A empresa Telecom X tem enfrentado um problema de alto cancelamento por parte dos clientes. Esta é uma análise dos dados para entender fatores que levam à perda desses clientes.
 Importei os dados que estavam em um json aninhados. Na fase de limpeza, notei que alguns campos da coluna Churn estavam vazios, assim substitui por Nan. Transformei a coluna total charges para float para poder trabalhar com números e os campos vazios também substitui por Nan. 
