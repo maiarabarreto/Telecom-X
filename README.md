@@ -9,7 +9,9 @@ Com base nos dados e gráficos, podemos sugerir substituição do contrato mês 
 
 ## Tecnologias usadas
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) PYTHON: Linguagem principal
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) PANDAS: Manipulação de dados
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black) GOOGLE COLAB: Ambiente de desenvolvimento
 
 ## Como rodar o projeto
 
