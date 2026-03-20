@@ -13,6 +13,15 @@ Com base nos dados e gráficos, podemos sugerir substituição do contrato mês 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) PANDAS: Manipulação de dados
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black) GOOGLE COLAB: Ambiente de desenvolvimento
 
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+  Linguagem principal de desenvolvimento
+
+- ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
+  Manipulação de dados
+
+- ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)  
+  Ambiente
+
 ## Como rodar o projeto
 
 ## Autor
