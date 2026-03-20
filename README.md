@@ -3,9 +3,28 @@
 ## Sobre o projeto
 
 A empresa Telecom X tem enfrentado um problema de alto cancelamento por parte dos clientes. Esta é uma análise dos dados para entender fatores que levam à perda desses clientes.
-Importei os dados que estavam em um json aninhados. Na fase de limpeza, notei que alguns campos da coluna Churn estavam vazios, assim substitui por Nan. Transformei a coluna total charges para float para poder trabalhar com números e os campos vazios também substitui por Nan. 
-Com base nos gráficos gerados, notamos que menos da metade dos clientes estão cancelando os serviços com a Telecom X. Destes, não notamos diferença significativa entre idade, acima ou abaixo de 65 anos, ou gênero. É possível notar que clientes com menor tempo de contrato tem uma evasão maior. Clientes com contrato mês a mês tem evasão maior que aqueles com contrato de um ou dois anos. Clientes com gastos mensais maiores também tem maior evasão. E o método de pagamento com maior evasão é o cheque eletrônico. 
-Com base nos dados e gráficos, podemos sugerir substituição do contrato mês a mês para contrato anual ou bianual. E também substituir a forma de pagamento de cheque eletrônico para cartão de crédito automático, que apresentou menor evasão.  
+
+## Dados Utilizados
+Os dados representam informações de clientes, incluindo:
+- Status de churn/evasão (variável alvo)
+- Perfil demográfico
+- Tempo de relacionamento com a empresa
+- Serviços contratados
+- Informações financeiras
+
+Formato original:
+JSON
+
+##Principais Análises e Insights
+- Churn e Contrato
+Clientes com contrato Month-to-month apresentam maior taxa de evasão
+Contratos de longo prazo (anual ou bienal) reduzem drasticamente a evasão
+- Tempo de Contrato (Tenure)
+Clientes novos são significativamente mais propensos a cancelar
+- Análise de Correlação
+Correlação negativa entre churn e:
+Tempo de contrato, quantidade de serviços
+Correlação positiva entre churn e cobrança mensal
 
 ## Tecnologias usadas
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -15,6 +34,9 @@ Com base nos dados e gráficos, podemos sugerir substituição do contrato mês 
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
 
 ## Como rodar o projeto
+1. Abra o notebook TelecomX_BR.ipynb no Google Colab ou Jupyter Notebook.
+2. Instale as bibliotecas necessárias (caso necessário): pip install pandas matplotlib seaborn
+3. Execute as células na ordem para reproduzir toda a análise.
 
 ## Autor
 Desenvolvido por Maiara Barreto
